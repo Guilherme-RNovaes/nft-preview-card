@@ -1,0 +1,127 @@
+/*------------------------------ colors ------------------------------*/
+/*
+    ### Primary
+
+    - Soft blue: hsl(215, 51%, 70%)
+    - Cyan: hsl(178, 100%, 50%)
+
+    ### Neutral
+
+    - Very dark blue (main BG): hsl(217, 54%, 11%)
+    - Very dark blue (card BG): hsl(216, 50%, 16%)
+    - Very dark blue (line): hsl(215, 32%, 27%)
+    - White: hsl(0, 0%, 100%)
+*/
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.nft__page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.nft__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    background-color: brown;
+    padding: 1.5rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+
+.nft__card h1{
+    color: hsl(0, 0%, 100%);
+    font-size: x-large;
+}
+
+.nft__card p{
+    color: hsl(215, 51%, 70%);
+}
+
+.container__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.container__eth{
+    display: flex;
+    align-items: center;
+}
+
+.container__eth img{
+    padding-right: 5px;
+}
+
+.container__eth h2{
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    font-size: medium;
+    text-align: start;
+}
+
+.container__day{
+    display: flex;
+    align-items: center;
+}
+
+.container__day img{
+    padding-right: 5px;
+}
+
+.container__day p{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    text-align: start;
+}
+
+.nft__info a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.nft__img img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.nft__creation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    margin-left: -40px;
+}
+
+.nft__creation img{
+    width: 30px;
+    margin-right: 15px;
+    border: 1.5px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.nft__creation a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.attribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
